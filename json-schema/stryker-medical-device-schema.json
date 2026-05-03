@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://stryker.com/schemas/medical-device",
+  "title": "Stryker Medical Device",
+  "description": "Schema representing a Stryker medical device or implant product.",
+  "type": "object",
+  "required": ["id", "name", "category", "division"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique product identifier or catalog number",
+      "example": "STR-MAKO-KNE-001"
+    },
+    "name": {
+      "type": "string",
+      "description": "Product name",
+      "example": "Mako Total Knee"
+    },
+    "description": {
+      "type": "string",
+      "description": "Product description and clinical application"
+    },
+    "category": {
+      "type": "string",
+      "description": "Product category",
+      "enum": [
+        "Orthopedic Implant",
+        "Robotic System",
+        "Surgical Instrument",
+        "Endoscopy",
+        "Neurovascular",
+        "Spine Implant",
+        "EMS Equipment",
+        "Connected Care Platform",
+        "Hospital Equipment"
+      ]
+    },
+    "division": {
+      "type": "string",
+      "description": "Stryker business division",
+      "enum": [
+        "Orthopaedics",
+        "MedSurg",
+        "Neurotechnology",
+        "Spine",
+        "Endoscopy",
+        "Instruments",
+        "Emergency Medical Services",
+        "Digital"
+      ]
+    },
+    "procedureType": {
+      "type": "array",
+      "description": "Surgical or clinical procedures this device supports",
+      "items": {
+        "type": "string"
+      },
+      "example": ["Total Knee Arthroplasty", "Partial Knee Arthroplasty"]
+    },
+    "clearanceType": {
+      "type": "string",
+      "description": "Regulatory clearance type",
+      "enum": ["FDA 510(k)", "FDA PMA", "CE Mark", "Multiple"]
+    },
+    "technologyType": {
+      "type": "string",
+      "description": "Technology type",
+      "enum": ["Robotic", "Conventional", "Navigation-Assisted", "IoT", "Software", "Implant", "Instrument"]
+    },
+    "compatibleSystems": {
+      "type": "array",
+      "description": "Compatible Stryker systems or platforms",
+      "items": {
+        "type": "string"
+      }
+    },
+    "clinicalFeatures": {
+      "type": "array",
+      "description": "Key clinical features and benefits",
+      "items": {
+        "type": "string"
+      }
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Product page URL on stryker.com"
+    }
+  }
+}

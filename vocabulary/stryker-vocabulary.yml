@@ -1,0 +1,154 @@
+name: Stryker
+description: >-
+  Vocabulary of key terms, product lines, and concepts used across Stryker Corporation's
+  medical technology portfolio. Covers orthopedics, surgical equipment, neurotechnology,
+  connected care, and digital health platforms.
+version: "1.0"
+created: "2026-05-02"
+modified: "2026-05-02"
+tags:
+  - Medical Devices
+  - Healthcare Technology
+  - Orthopedics
+  - Surgical Equipment
+  - Fortune 500
+
+terms:
+  - term: Mako
+    definition: >-
+      Stryker's robotic arm assisted surgical system for total knee, total hip, and partial
+      knee replacements. Uses pre-surgical CT-based planning and real-time haptic feedback
+      to enhance precision. One of Stryker's flagship orthopedic technology products.
+    category: Product
+    tags:
+      - Robotics
+      - Orthopedics
+      - Surgery
+
+  - term: Connected OR
+    definition: >-
+      Stryker's integrated operating room platform (iSuite) that connects surgical devices,
+      video equipment, lighting, and documentation systems into a unified environment. Supports
+      OR workflow optimization and video capture.
+    category: Platform
+    tags:
+      - Operating Room
+      - Integration
+      - Digital Health
+
+  - term: Smart Equipment Management (SEM)
+    definition: >-
+      Stryker's IoT-based asset tracking and management system for hospital beds, stretchers,
+      and medical equipment. Provides real-time location, usage analytics, and preventive
+      maintenance scheduling.
+    category: Platform
+    tags:
+      - IoT
+      - Asset Tracking
+      - Hospital Operations
+
+  - term: SurgiCount
+    definition: >-
+      Safety software for surgical sponge and instrument counting that uses RFID technology
+      to prevent retained surgical items (RSI). Integrates with OR documentation systems.
+    category: Product
+    tags:
+      - Patient Safety
+      - Operating Room
+      - RFID
+
+  - term: Triathlon
+    definition: >-
+      Stryker's total knee system designed with a highly congruent articulation for
+      stability and range of motion. A widely used implant in total knee arthroplasty.
+    category: Product
+    tags:
+      - Orthopedics
+      - Knee Replacement
+      - Implants
+
+  - term: Accolade
+    definition: >-
+      Stryker's total hip system featuring a tapered wedge femoral stem designed for
+      primary total hip arthroplasty. Supports cementless fixation.
+    category: Product
+    tags:
+      - Orthopedics
+      - Hip Replacement
+      - Implants
+
+  - term: Spine
+    definition: >-
+      Stryker's spinal implant and instrumentation portfolio covering cervical, thoracic,
+      and lumbar surgery. Includes navigation-guided and robotic-assisted spinal procedures.
+    category: Product Line
+    tags:
+      - Spine
+      - Neurotechnology
+
+  - term: Neurovascular
+    definition: >-
+      Stryker's portfolio for treating stroke and brain aneurysms. Includes the Trevo
+      thrombectomy device for ischemic stroke intervention and coiling systems for aneurysms.
+    category: Product Line
+    tags:
+      - Neurovascular
+      - Stroke
+      - Interventional
+
+  - term: EMS (Emergency Medical Services)
+    definition: >-
+      Stryker's emergency medical and transport equipment division covering ambulance cots,
+      power-load systems, and evacuation chairs. The Power-PRO XT cot is a widely
+      deployed product in this segment.
+    category: Product Line
+    tags:
+      - Emergency Medical Services
+      - Medical Equipment
+
+  - term: Endoscopy
+    definition: >-
+      Stryker's endoscopy division providing camera systems, light sources, fluid management,
+      and integrated OR visualization tools for minimally invasive procedures.
+    category: Product Line
+    tags:
+      - Endoscopy
+      - Minimally Invasive
+      - Operating Room
+
+  - term: Arthroplasty
+    definition: >-
+      Surgical reconstruction or replacement of a joint (hip, knee, shoulder). Stryker is
+      a leading supplier of implants and instruments for total and partial joint replacement.
+    category: Clinical Term
+    tags:
+      - Orthopedics
+      - Surgery
+
+  - term: Total Hip Arthroplasty (THA)
+    definition: >-
+      Surgical replacement of the entire hip joint with an artificial implant. Stryker
+      provides acetabular cups, femoral stems, and bearing surfaces for THA procedures.
+    category: Clinical Term
+    tags:
+      - Hip Replacement
+      - Orthopedics
+
+  - term: Total Knee Arthroplasty (TKA)
+    definition: >-
+      Surgical replacement of the knee joint. Stryker's Mako robotic system is widely used
+      for TKA to improve implant alignment and patient outcomes.
+    category: Clinical Term
+    tags:
+      - Knee Replacement
+      - Orthopedics
+
+  - term: CORI
+    definition: >-
+      Stryker's handheld robotic platform for knee replacement that uses a computer-assisted
+      technique without the need for pre-operative CT imaging. More portable than Mako.
+    category: Product
+    tags:
+      - Robotics
+      - Orthopedics
+      - Surgery

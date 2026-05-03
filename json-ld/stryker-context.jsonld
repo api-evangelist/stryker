@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "stryker": "https://www.stryker.com/vocab#",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "manufacturer": "schema:manufacturer",
+    "brand": "schema:brand",
+    "model": "schema:model",
+    "productID": "schema:productID",
+    "category": "schema:category",
+    "MedicalDevice": "schema:MedicalDevice",
+    "SurgicalDevice": "stryker:SurgicalDevice",
+    "ImplantableDevice": "stryker:ImplantableDevice",
+    "OrthopedicImplant": {
+      "@id": "stryker:OrthopedicImplant",
+      "@type": "schema:MedicalDevice"
+    },
+    "RoboticSurgicalSystem": {
+      "@id": "stryker:RoboticSurgicalSystem",
+      "@type": "schema:MedicalDevice"
+    },
+    "TotalKneeSurgery": "stryker:TotalKneeSurgery",
+    "TotalHipSurgery": "stryker:TotalHipSurgery",
+    "SpinalSurgery": "stryker:SpinalSurgery",
+    "NeurovascularProcedure": "stryker:NeurovascularProcedure",
+    "ConnectedOR": {
+      "@id": "stryker:ConnectedOR",
+      "@type": "schema:SoftwareApplication"
+    },
+    "SmartEquipmentManagement": {
+      "@id": "stryker:SmartEquipmentManagement",
+      "@type": "schema:SoftwareApplication"
+    },
+    "HospitalEquipment": "stryker:HospitalEquipment",
+    "AssetTracking": "stryker:AssetTracking",
+    "OperatingRoom": "stryker:OperatingRoom",
+    "SurgicalProcedure": "schema:SurgicalProcedure",
+    "MedicalOrganization": "schema:MedicalOrganization",
+    "Organization": "schema:Organization"
+  }
+}
