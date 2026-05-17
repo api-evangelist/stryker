@@ -9,7 +9,7 @@ tags:
   - Medical Equipment
   - Orthopedics
   - Surgical Equipment
-type: Contract
+kind: contract
 access: 3rd-Party
 common:
   - url: https://www.stryker.com
@@ -23,13 +23,13 @@ common:
   - url: https://strykersurgicount.com
     type: SurgiCount Safety
   - url: https://www.stryker.com/us/en/about/privacy.html
-    type: Privacy Policy
+    type: PrivacyPolicy
   - url: https://www.stryker.com/us/en/about/investor-relations.html
     type: Investor Relations
   - url: https://jobs.stryker.com/
     type: Careers
   - url: https://github.com/Stryker-S1
-    type: GitHub Organization
+    type: GitHubOrganization
   - url: vocabulary/stryker-vocabulary.yml
     type: Vocabulary
   - url: json-ld/stryker-context.jsonld
