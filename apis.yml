@@ -12,6 +12,10 @@ tags:
 kind: contract
 access: 3rd-Party
 common:
+  - type: TrustCenter
+    url: security/stryker-trust-center.yml
+  - type: DomainSecurity
+    url: security/stryker-domain-security.yml
   - url: https://www.stryker.com
     type: Website
   - url: https://www.stryker.com/us/en/about/company.html

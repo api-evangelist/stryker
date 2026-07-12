@@ -1,0 +1,17 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://trust.stryker.com/
+url: https://trust.stryker.com/
+certifications:
+- SOC 2
+- HIPAA
+- GDPR
+evidence:
+- source: https://trust.stryker.com/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center
+  - compliance certification
+  - gdpr
