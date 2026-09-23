@@ -1,7 +1,9 @@
 ---
 title: Stryker announces definitive agreement to acquire care.ai, ...
 url: https://www.stryker.com/us/en/about/news/2024/stryker-announces-definitive-agreement-to-acquire-care-ai--a-lea.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Stryker" press release artificial intelligence'
 position: 1
 source: serpapi-google

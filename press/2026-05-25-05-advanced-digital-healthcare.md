@@ -1,7 +1,9 @@
 ---
 title: Advanced Digital Healthcare
 url: https://www.stryker.com/us/en/portfolios/medical-surgical-equipment/advanced-digital-healthcare.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Stryker" press release artificial intelligence'
 position: 5
 source: serpapi-google

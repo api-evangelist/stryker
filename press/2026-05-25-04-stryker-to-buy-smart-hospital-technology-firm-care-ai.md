@@ -1,7 +1,9 @@
 ---
 title: Stryker to buy smart hospital technology firm Care.ai
 url: https://www.healthcaredive.com/news/stryker-buy-care-ai-smart-hospital/724057/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Stryker" press release artificial intelligence'
 position: 4
 source: serpapi-google
