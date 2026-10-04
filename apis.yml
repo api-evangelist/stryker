@@ -27,6 +27,13 @@ apis: []
 name: Stryker
 tags:
   - Medical Devices
+  - Health Tech
+  - Fortune 500
+  - Medical Equipment
+  - Orthopedics
+  - Surgical Equipment
+tags_raw:
+  - Medical Devices
   - Healthcare Technology
   - Fortune 500
   - Medical Equipment
