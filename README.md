@@ -1,4 +1,4 @@
-# Stryker (stryker)
+# Stryker
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,65 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Stryker Corporation is a Fortune 500 medical technologies company offering products in orthopedics, medical and surgical equipment, and neurotechnology and spine. Stryker provides Connected OR integration platforms and Smart Equipment Management systems for healthcare facilities.
+Stryker Corporation is a Fortune 500 medical technologies company offering products in orthopedics, medical and surgical equipment, and neurotechnology and spine. Stryker provides Connected OR integration platforms and Smart Equipment Management (SEM) systems for healthcare facilities. The company does not currently offer a publicly documented developer API. Stryker's digital health products include the Mako robotic arm for orthopedic surgery, iSuite integrated OR technology, and asset tracking systems. Integration with hospital EHR and OR management systems is done through vendor partnerships rather than public APIs.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/stryker/refs/heads/main/apis.yml)
+**Areas:** Medical Devices · Health Tech · Fortune 500 · Medical Equipment · Orthopedics · Surgical Equipment
 
-## Scope
+## Stryker on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Stryker is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/stryker/](https://apis.io/providers/stryker/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Medical Devices, Healthcare Technology, Fortune 500, Medical Equipment, Orthopedics, Surgical Equipment
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON Schema (1)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-05-02
+The data models the API reads and writes.
 
-## APIs
+- [Stryker Medical Device](https://apis.io/schemas/stryker/stryker-medical-device/)
 
-Stryker does not currently offer a publicly documented developer API. The company's digital health products—including Connected OR (iSuite), Smart Equipment Management (SEM), and the Mako robotic surgery platform—integrate with hospital systems through vendor partnerships rather than public APIs.
+#### JSON-LD (1)
 
-## Common Properties
+Linked-data contexts for the provider's vocabulary.
+
+- [Stryker Context](https://apis.io/jsonld/stryker/stryker-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Stryker Vocabulary](https://apis.io/vocabularies/stryker/stryker-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Stryker — jsonschema rules](https://apis.io/rules/stryker/stryker-jsonschema-spectral-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Stryker Domain Security](https://apis.io/security/stryker/stryker-domain-security/)
+- [Stryker Trust Center](https://apis.io/security/stryker/stryker-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.stryker.com)
-- [Smart Equipment Management](https://www.stryker.com/us/en/connected-care/smart-equipment-management.html)
-- [Connected OR](https://www.stryker.com/us/en/connected-care/connected-or.html)
-- [Privacy Policy](https://www.stryker.com/us/en/about/privacy.html)
-- [GitHub Organization](https://github.com/Stryker-S1)
-- [Vocabulary](vocabulary/stryker-vocabulary.yml)
-- [JSON-LD Context](json-ld/stryker-context.jsonld)
+- [Privacy policy](https://www.stryker.com/us/en/about/privacy.html)
+- [GitHub](https://github.com/Stryker-S1)
 
-## JSON Schemas
+## API Evangelist rating
 
-- [stryker-medical-device-schema.json](json-schema/stryker-medical-device-schema.json) — Schema for Stryker medical device/implant products
+**Kin Score 15.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Vocabulary
-
-The [Stryker Vocabulary](vocabulary/stryker-vocabulary.yml) documents key terms from Stryker's product portfolio including:
-
-- **Mako** — Robotic arm assisted surgery system for knee and hip replacement
-- **Connected OR** — Integrated operating room platform (iSuite)
-- **Smart Equipment Management (SEM)** — IoT asset tracking for hospital equipment
-- **SurgiCount** — RFID-based surgical sponge and instrument safety system
-- **CORI** — Handheld robotic platform for knee replacement without CT imaging
-
-## Key Product Lines
-
-| Division | Products |
+| Facet | Score |
 |---|---|
-| Orthopaedics | Mako Robot, Triathlon Knee, Accolade Hip, CORI |
-| MedSurg | Endoscopy, Instruments, Hospital Beds, EMS Equipment |
-| Neurotechnology | Trevo Thrombectomy, Aneurysm Coiling |
-| Spine | Cervical/Thoracic/Lumbar Implants, Navigation |
-| Digital | Connected OR, Smart Equipment Management |
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 18.4 |
 
-## Maintainers
+**Agent readiness 0.0** — human-only
 
-**FN:** Kin Lane
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**Email:** kin@apievangelist.com
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/stryker/](https://apis.io/providers/stryker/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Stryker: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/stryker/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
